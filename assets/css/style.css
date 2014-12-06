@@ -1,3 +1,80 @@
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('../font/oswald-regular-webfont.eot');
+    src: url('../font/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/oswald-regular-webfont.woff2') format('woff2'),
+         url('../font/oswald-regular-webfont.woff') format('woff'),
+         url('../font/oswald-regular-webfont.ttf') format('truetype'),
+         url('../font/oswald-regular-webfont.svg#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../font/roboto-regular-webfont.eot');
+    src: url('../font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-regular-webfont.woff2') format('woff2'),
+         url('../font/roboto-regular-webfont.woff') format('woff'),
+         url('../font/roboto-regular-webfont.ttf') format('truetype'),
+         url('../font/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+font: normal 16px/26px Helvetica,Arial;
+color: rgb(68, 68, 68);
+}
+h1,h2,h3,h4,h5,h6{
+color: rgb(34, 34, 34);
+font-family: oswaldbook;
+}
+h2{
+font-size: 35px;
+line-height: 50px;
+margin: 0;
+}
+a{
+color: rgb(34, 34, 34);
+}
+a:hover{
+color: rgb(221, 76, 57);text-decoration:none;}
+.user-picture{
+float: left;
+margin-right: 20px;
+}
+.node .submitted {
+color: grey;
+font-size: 10px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.user-picture img{
+width: 100px;
+height:100px;
+border-radius: 200px;
+box-shadow: 0px 5px 5px #999;
+}
+.node .content{
+width: 100%;
+clear: both;
+margin: 50px 0;
+}
+.links{
+font-size: 11px;
+font-weight: bold;
+}
+.node-readmore{
+padding: 1px 7px !important;
+border-radius: 5px !important;
+background:rgb(221, 76, 57);
+}
+.node-readmore a,.node-readmore a:hover{color: #fff;}
 #featured {
   background-color: whitesmoke;
   border-bottom: 1px solid #e5e5e5;
@@ -96,3 +173,43 @@
   color: grey;
   text-shadow: none;
 }
+#comments .user-picture img{
+width: 70px;height: 70px;
+}
+#comments h3{
+	font-size: 14px;
+}
+#comments .content{
+	margin: 10px;
+}
+.content p{
+	text-align: justify;
+}
+.sidebar #block-search-form{display:none;}
+
+.navbar-inverse .brand,.navbar-medium .nav > li > a,.breadcrumb,.breadcrumb a,#header h1{color: #fff;}
+#header{background: #383838;}
+
+body{background-color: #e4e4e4;}
+.node-blog{
+	
+padding: 25px 25px 20px;
+border: 1px solid #fff;background: #fefefe;border-radius: 10px;}
+#sidebar-second{
+background-color: rgb(238, 238, 238);
+
+border: 1px solid rgb(51,51,51);
+border-radius: 10px;
+}
+.sidebar .block h2{
+width: 100%;
+background: #222;
+margin-left: -10px;
+border-radius: 10px 10px 0 0px;
+padding-left: 10px;
+color: #fff;
+/* margin: 0 0 0 0; */
+margin-bottom: 18px;
+}
+.sidebar .block .content{padding-right: 5px;}
+.sidebar .item-list li{margin-bottom: 10px;}
